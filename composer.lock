@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexandrehdev/comphass.git",
-                "reference": "16194a489b749157bec881fe3773967091920660"
+                "reference": "238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexandrehdev/comphass/zipball/16194a489b749157bec881fe3773967091920660",
-                "reference": "16194a489b749157bec881fe3773967091920660",
+                "url": "https://api.github.com/repos/alexandrehdev/comphass/zipball/238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0",
+                "reference": "238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0",
                 "shasum": ""
             },
             "default-branch": true,
@@ -39,7 +39,7 @@
                 "issues": "https://github.com/alexandrehdev/comphass/issues",
                 "source": "https://github.com/alexandrehdev/comphass/tree/master"
             },
-            "time": "2022-09-20T12:37:07+00:00"
+            "time": "2022-09-22T14:53:04+00:00"
         },
         {
             "name": "saphira/connectdb",
@@ -78,7 +78,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "stability-flags": {
         "saphira/connectdb": 20,
         "guide/comphass": 20
