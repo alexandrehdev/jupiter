@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34205a61a7b04b350b9ad50001d72b5a",
+    "content-hash": "121592fbc69cb606bf383a30ea1dae7c",
     "packages": [
         {
             "name": "guide/comphass",
