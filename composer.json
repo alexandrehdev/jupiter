@@ -1,0 +1,20 @@
+{
+    "name": "app/fireball",
+    "type": "project",
+    "require": {
+        "saphira/connectdb": "dev-master",
+        "guide/comphass": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Fireball\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexandrehdev",
+            "email": "alexandrehldev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "34205a61a7b04b350b9ad50001d72b5a",
+    "packages": [
+        {
+            "name": "guide/comphass",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexandrehdev/comphass.git",
+                "reference": "16194a489b749157bec881fe3773967091920660"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexandrehdev/comphass/zipball/16194a489b749157bec881fe3773967091920660",
+                "reference": "16194a489b749157bec881fe3773967091920660",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Guide\\Comphass\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "alexandrehdev",
+                    "email": "alexandrehldev@gmail.com"
+                }
+            ],
+            "description": "A routing package",
+            "support": {
+                "issues": "https://github.com/alexandrehdev/comphass/issues",
+                "source": "https://github.com/alexandrehdev/comphass/tree/master"
+            },
+            "time": "2022-09-20T12:37:07+00:00"
+        },
+        {
+            "name": "saphira/connectdb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexandrehdev/saphira.git",
+                "reference": "b452fca5904e82d77f69897fd61971df877c24b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexandrehdev/saphira/zipball/b452fca5904e82d77f69897fd61971df877c24b9",
+                "reference": "b452fca5904e82d77f69897fd61971df877c24b9",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Saphira\\Connectdb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "alexandrehdev"
+                }
+            ],
+            "description": "PHP Package that allows you to connect to database and exec some querys with functions",
+            "support": {
+                "issues": "https://github.com/alexandrehdev/saphira/issues",
+                "source": "https://github.com/alexandrehdev/saphira/tree/master"
+            },
+            "time": "2022-09-15T21:50:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "saphira/connectdb": 20,
+        "guide/comphass": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
