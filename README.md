@@ -1,3 +1,3 @@
-# fireball
+# Jupiter
 
-composer create-project:dev-master setup/fireball
+composer create-project:dev-master solar/jupiter
