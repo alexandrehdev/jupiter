@@ -1,16 +1,22 @@
 <?php
-namespace App\Fireball\Http;
-use App\Fireball\Http\Manager\Controller;
+namespace App\Jupiter\Http;
+use App\Jupiter\Painel\View;
+use App\Jupiter\Http\Manager\Controller;
+use Saphira\Connectdb\Common\Enviroment;
 
 class UserController extends Controller{
 
 
-    public function __construct(){
+    function __construct(){
+
+        Enviroment::load(__DIR__);
 
     }
 
-    public function firstMethod(){
-        
+    public function user(){
+
+        /* setup */ 
+
     }
 
 }
