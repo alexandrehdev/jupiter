@@ -1,3 +1,3 @@
 # Jupiter
 
-composer create-project solar/jupiter <name-project>
+composer create-project solar/jupiter -name-project-
