@@ -1,5 +1,5 @@
 {
-    "name": "workspace/jupiter",
+    "name": "space/jupiter",
     "type": "project",
     "require": {
         "saphira/connectdb": "dev-master",
