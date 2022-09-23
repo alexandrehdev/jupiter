@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="public/css/variables.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/elements.css">
+    <title>Welcome</title>
 </head>
 <body>
-    <header>Funciona disgraça</header>
+    <header>
+        <div>Jupiter</div>
+    </header>
+    
+
 </body>
 </html>
