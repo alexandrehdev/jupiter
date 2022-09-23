@@ -1,5 +1,5 @@
 {
-    "name": "space/jupiter",
+    "name": "solar/jupiter",
     "type": "project",
     "require": {
         "saphira/connectdb": "dev-master",
