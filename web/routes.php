@@ -8,5 +8,5 @@ use App\Jupiter\Painel\View;
 /* }); */
 
 Route::redirect("/",function(){
-   View::get("greetings", ["hally" => "lindo"]);
+   View::get("greetings", ["test" => "awesome"]);
 }); 
