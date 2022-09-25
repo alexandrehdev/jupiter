@@ -11,14 +11,12 @@ class Controller{
 
 
 
+
     public function __construct(){
         $this->request = $_REQUEST;
     }
     
 
-    public function showView(){
-            
-    }
 
     public function input(string $name) :string{
         $this->input = $this->request["{$name}"];

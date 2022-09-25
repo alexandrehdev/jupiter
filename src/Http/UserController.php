@@ -13,10 +13,8 @@ class UserController extends Controller{
 
     }
 
-    public function user(){
-
-        /* setup */ 
-
+    public function index(){
+        echo "tchurusbango";
     }
 
 }
