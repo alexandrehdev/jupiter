@@ -12,7 +12,7 @@
     <header>
         <div>Jupiter</div>
     </header>
-    
+
 
 </body>
 </html>

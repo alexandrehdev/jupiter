@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e134197d6dddd028d3d4788efe0d792f",
+    "content-hash": "dafaa30758e69d636c5eecccdd5c1831",
     "packages": [
         {
             "name": "guide/comphass",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexandrehdev/comphass.git",
-                "reference": "238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0"
+                "reference": "4e9eb7a23a05dd772f1da8e27beb4d407c5ed580"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexandrehdev/comphass/zipball/238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0",
-                "reference": "238fb0a353cb42ba7fc3fc0381bc84c24fbb6eb0",
+                "url": "https://api.github.com/repos/alexandrehdev/comphass/zipball/4e9eb7a23a05dd772f1da8e27beb4d407c5ed580",
+                "reference": "4e9eb7a23a05dd772f1da8e27beb4d407c5ed580",
                 "shasum": ""
             },
             "default-branch": true,
@@ -39,20 +39,20 @@
                 "issues": "https://github.com/alexandrehdev/comphass/issues",
                 "source": "https://github.com/alexandrehdev/comphass/tree/master"
             },
-            "time": "2022-09-22T14:53:04+00:00"
+            "time": "2022-10-04T21:14:23+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "dev-master",
+            "version": "v6.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "df88e14dba88f711af3dc838eb29089e3684e609"
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/df88e14dba88f711af3dc838eb29089e3684e609",
-                "reference": "df88e14dba88f711af3dc838eb29089e3684e609",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a94fdebaea6bd17f51be0c2373ab80d3d681269b",
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +79,6 @@
                 "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
                 "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -110,7 +109,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/master"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.4"
             },
             "funding": [
                 {
@@ -118,7 +117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-21T15:14:16+00:00"
+            "time": "2022-08-22T09:22:00+00:00"
         },
         {
             "name": "saphira/connectdb",
@@ -126,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexandrehdev/saphira.git",
-                "reference": "cba9e089edfd295226e2acd851c0c389b3e1ad0b"
+                "reference": "57ef5f01891536ac085201bc00688dec63233150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexandrehdev/saphira/zipball/cba9e089edfd295226e2acd851c0c389b3e1ad0b",
-                "reference": "cba9e089edfd295226e2acd851c0c389b3e1ad0b",
+                "url": "https://api.github.com/repos/alexandrehdev/saphira/zipball/57ef5f01891536ac085201bc00688dec63233150",
+                "reference": "57ef5f01891536ac085201bc00688dec63233150",
                 "shasum": ""
             },
             "default-branch": true,
@@ -152,7 +151,7 @@
                 "issues": "https://github.com/alexandrehdev/saphira/issues",
                 "source": "https://github.com/alexandrehdev/saphira/tree/master"
             },
-            "time": "2022-09-22T20:28:00+00:00"
+            "time": "2022-10-04T13:58:18+00:00"
         }
     ],
     "packages-dev": [
@@ -785,12 +784,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "186775f8273914e60ef42ce8ffeef083cab49904"
+                "reference": "0121b1461752aaef5fb6794a66b6ff498b661f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/186775f8273914e60ef42ce8ffeef083cab49904",
-                "reference": "186775f8273914e60ef42ce8ffeef083cab49904",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0121b1461752aaef5fb6794a66b6ff498b661f26",
+                "reference": "0121b1461752aaef5fb6794a66b6ff498b661f26",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +878,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-23T10:36:41+00:00"
+            "time": "2022-09-27T12:47:19+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1742,12 +1741,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "33589696a54e5ae179413ec009d79e44ebe577cd"
+                "reference": "4d34b23933f255b0822758a44272222cac593eb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/33589696a54e5ae179413ec009d79e44ebe577cd",
-                "reference": "33589696a54e5ae179413ec009d79e44ebe577cd",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/4d34b23933f255b0822758a44272222cac593eb4",
+                "reference": "4d34b23933f255b0822758a44272222cac593eb4",
                 "shasum": ""
             },
             "require": {
@@ -1790,7 +1789,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-19T05:28:34+00:00"
+            "time": "2022-10-01T05:56:17+00:00"
         },
         {
             "name": "sebastian/version",
@@ -1900,8 +1899,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "saphira/connectdb": 20,
-        "guide/comphass": 20,
-        "phpmailer/phpmailer": 20
+        "guide/comphass": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

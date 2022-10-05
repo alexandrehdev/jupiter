@@ -1,33 +1,28 @@
 <?php
-
 namespace App\Jupiter\Http\Manager;
+use Saphira\Connectdb\Actions\DataActions;
 
 class Controller{
 
-    private $request;
+
+    private Input $input;
 
 
-    private $input;
+    function __construct(){
+        
 
-
-
-    public function __construct(){
-        $this->request = $_REQUEST;
-    }
-    
-
-    public function showView(){
-            
     }
 
-    public function input(string $name) :string{
-        $this->input = $this->request["{$name}"];
-        return $this->input;
-    }    
+
+    public function callUrl(string $route){
+        return header("Location: {$route}");
+    }
 
 
 
-    
+    public function isValidEmail(string $email) :bool{
+       return (!filter_var($email, FILTER_VALIDATE_EMAIL)) ? false : true; 
+    }
 
 
 }

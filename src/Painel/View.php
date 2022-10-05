@@ -1,31 +1,34 @@
 <?php
 namespace App\Jupiter\Painel;
-
+use App\Jupiter\Http\UserController;
 
 class View{
 
     private $view;
 
 
-    private $path = __DIR__ . "/../../resources/views/";
+    private static $instance = null;
 
 
+    private $path;
 
-    public function contentView(string $content){
-        $self = new Static();
-        $self->path .= "{$content}.painel.php";
-        $self->view = (file_exists($self->path)) ? file_get_contents($self->path) : null;
 
-        return $self->view;
+    function __construct(){
+
+        $this->path = __DIR__ . "/../../resources/views/"; 
+
     }
 
 
-    public static function get(string $view) :void{
-        echo (new Static())->contentView($view);
+    public function getInstance(){
+        if(self::$instance == null){
+            self::$instance = new self;
+        }
+
+        return self::$instance;
     }
 
-
-
+    
     public static function exists(string $view) :bool{
         return (file_exists($view)) ? true : false;
     }
