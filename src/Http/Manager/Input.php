@@ -23,24 +23,28 @@ class Input{
     }
 
 
-    public static function get(string $name) :object{
+    public static function get(string $name) :string
+    {
         return Request::name($name);
     }
 
     
 
-    public static function has(string $name) :bool{
+    public static function has(string $name) :bool
+    {
         return (Request::name($name)) ? true : false;
     }
 
     
 
-    public static function all() :array{
+    public static function all() :array
+    {
         return Request::response();
     }
 
 
-    public static function only(string ...$inputs) :array{
+    public static function only(string ...$inputs) :array
+    {
         $valInput = [];
 
         foreach($inputs as $input){
@@ -49,6 +53,7 @@ class Input{
 
         return $valInput;
     }
+
 
     public static function except(string ...$inputs){
        /* retorna todos except atual param */

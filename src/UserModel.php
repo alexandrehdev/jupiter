@@ -6,17 +6,15 @@ use App\Jupiter\Service\Model;
 class UserModel extends Model{
 
 
-    private $connect;
+    private $user;
 
 
 
     function __construct()
     {
         parent::__construct();
-
-        $this->connect = $this->getDataActions();
-
     }
+
 
     public function registerUser(){
 

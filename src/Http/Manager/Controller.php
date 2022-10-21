@@ -1,6 +1,5 @@
 <?php
 namespace App\Jupiter\Http\Manager;
-use Saphira\Connectdb\Actions\DataActions;
 
 class Controller{
 

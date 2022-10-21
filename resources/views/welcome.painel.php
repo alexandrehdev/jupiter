@@ -12,5 +12,10 @@
            <h1>{{project}}</h1>
        </div> 
     </main>
+
+    <form action="/register" method="POST">
+        <input type="text" name="user" id="">
+        <input type="submit" value="Send">
+    </form>
 </body>
 </html>
